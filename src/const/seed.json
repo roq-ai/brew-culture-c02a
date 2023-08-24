@@ -1,0 +1,2272 @@
+[
+  {
+    "tutorial": [
+      {
+        "id": "01210f2b-4b92-4f36-8257-bf128a4dba64",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-08-23T15:48:07.365Z",
+        "updated_at": "2023-08-23T19:47:08.578Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16de6596-ec54-48c5-8175-e38c1e85a8a2",
+        "title": "Getting Started with JavaScript",
+        "content": "Explore the fundamentals of JavaScript.",
+        "created_at": "2023-08-24T00:17:09.124Z",
+        "updated_at": "2023-08-23T11:48:51.438Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cabd9d60-08d9-43f2-af98-3ead736d5a1a",
+        "title": "Mastering React",
+        "content": "Become an expert in React framework.",
+        "created_at": "2023-08-24T03:46:45.595Z",
+        "updated_at": "2023-08-23T21:32:59.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4a3c65a-b327-441b-9156-6a78cf5cafba",
+        "title": "Deep Learning with TensorFlow",
+        "content": "Dive into the world of deep learning using TensorFlow.",
+        "created_at": "2023-08-24T01:25:00.261Z",
+        "updated_at": "2023-08-23T15:03:26.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0f9bf72-b6dd-4cfa-bc7e-cb81e1aff2dd",
+        "title": "Building RESTful APIs with Node.js",
+        "content": "Create robust RESTful APIs using Node.js.",
+        "created_at": "2023-08-23T14:27:59.880Z",
+        "updated_at": "2023-08-23T12:50:45.039Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "e7c86e48-6e79-4514-a17d-87d26ee67e8b",
+        "name": "Smart Home Assistant",
+        "description": "A voice-controlled device that helps automate your home.",
+        "price": 27824,
+        "created_at": "2023-08-24T05:21:13.623Z",
+        "updated_at": "2023-08-23T17:19:39.912Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86db882f-8a4e-4839-89ef-4fd294cc8152",
+        "name": "Wireless Bluetooth Earbuds",
+        "description": "High-quality earbuds with seamless wireless connectivity.",
+        "price": 25689,
+        "created_at": "2023-08-24T10:28:53.050Z",
+        "updated_at": "2023-08-23T14:02:19.063Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0f3b61a4-9d30-4aac-85c7-e054e9315be0",
+        "name": "Portable Power Bank",
+        "description": "A compact and portable charger for your electronic devices.",
+        "price": 16249,
+        "created_at": "2023-08-24T05:46:35.069Z",
+        "updated_at": "2023-08-23T13:13:20.468Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d26af214-3efd-421d-a571-edd7ef4c3a81",
+        "name": "Fitness Tracker Watch",
+        "description": "Track your fitness activities and monitor your health.",
+        "price": 94101,
+        "created_at": "2023-08-23T13:55:42.826Z",
+        "updated_at": "2023-08-23T21:33:01.035Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7db46168-749b-4b02-85d6-0a363d8bfe9a",
+        "name": "Smart Security Camera",
+        "description": "Monitor your surroundings with this advanced security camera.",
+        "price": 32161,
+        "created_at": "2023-08-23T15:57:54.461Z",
+        "updated_at": "2023-08-24T09:09:58.630Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "91ee6b3d-2750-4ff0-a310-b00b0e4c493d",
+        "name": "Tech Expo 2022",
+        "description": "An exhibition showcasing the latest technology innovations.",
+        "date": "2023-08-23T14:43:59.548Z",
+        "created_at": "2023-08-24T10:14:11.114Z",
+        "updated_at": "2023-08-24T03:43:11.347Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "012f5ea3-f4bb-4a0e-aba6-353bcef0a6ea",
+        "name": "Music Festival",
+        "description": "A multi-day music event featuring top artists and bands.",
+        "date": "2023-08-23T16:21:37.731Z",
+        "created_at": "2023-08-24T06:50:42.093Z",
+        "updated_at": "2023-08-24T09:56:33.155Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f1311e34-12f0-4fdd-93c3-54249273238c",
+        "name": "Startup Summit",
+        "description": "A conference for startups to network and pitch their ideas.",
+        "date": "2023-08-24T07:35:15.184Z",
+        "created_at": "2023-08-23T19:18:21.020Z",
+        "updated_at": "2023-08-23T20:31:40.311Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7a0a2e8c-1e8b-4eaa-a586-ab631b03b82c",
+        "name": "Art Exhibition",
+        "description": "An art exhibition displaying works from renowned artists.",
+        "date": "2023-08-23T21:44:14.112Z",
+        "created_at": "2023-08-24T03:50:47.843Z",
+        "updated_at": "2023-08-23T16:34:30.019Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "aa230245-b48a-4d7b-850d-313c53e2e56b",
+        "name": "Sports Tournament",
+        "description": "A sports tournament bringing together athletes from different disciplines.",
+        "date": "2023-08-23T22:24:48.452Z",
+        "created_at": "2023-08-23T19:51:58.420Z",
+        "updated_at": "2023-08-23T13:11:25.187Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "6424cc89-3f6e-4fc8-8b31-f4d1717cc6d3",
+        "bean_name": "Arabica",
+        "description": "A high-quality coffee bean known for its rich flavor.",
+        "created_at": "2023-08-23T21:27:03.711Z",
+        "updated_at": "2023-08-23T12:38:58.520Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0069d8d6-d8f9-4398-88af-9f51777eea5d",
+        "bean_name": "Robusta",
+        "description": "A popular coffee bean variety with a strong taste.",
+        "created_at": "2023-08-24T09:08:30.125Z",
+        "updated_at": "2023-08-23T19:16:21.926Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f26c398e-5953-4a75-b563-6d816e5fb8f8",
+        "bean_name": "Liberica",
+        "description": "A rare and unique coffee bean with a distinct aroma.",
+        "created_at": "2023-08-23T18:56:36.181Z",
+        "updated_at": "2023-08-24T07:21:26.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebaa00ab-f724-4f3f-9a33-b8b24eb7fbc5",
+        "bean_name": "Excelsa",
+        "description": "An exotic coffee bean with a smooth and fruity flavor.",
+        "created_at": "2023-08-24T07:29:54.190Z",
+        "updated_at": "2023-08-24T05:27:05.455Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef88b8f5-f852-48b6-9ac5-4b3f17925643",
+        "bean_name": "Maragogipe",
+        "description": "A large-sized coffee bean prized for its unique characteristics.",
+        "created_at": "2023-08-24T01:28:47.900Z",
+        "updated_at": "2023-08-24T05:55:43.457Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5a3c1b29-fbb2-4364-966c-aaf9057f188e",
+        "email": "Trycia.Corkery96@yahoo.com",
+        "firstName": "Dean",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31016607",
+        "tenantId": null
+      },
+      {
+        "reference": "0f8cbe48-a03c-4fdf-94ca-26fba30dd6fe",
+        "email": "Alysha.Rodriguez@yahoo.com",
+        "firstName": "Betty",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5074590",
+        "tenantId": null
+      },
+      {
+        "reference": "c7143a1e-0e0e-4b96-a70d-9da6c312a8af",
+        "email": "Raphaelle90@hotmail.com",
+        "firstName": "Chauncey",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "62a764a6-1c30-411c-ac24-70bd071c3fe4",
+        "email": "Tyree_Lebsack@hotmail.com",
+        "firstName": "Johnny",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77374419",
+        "tenantId": null
+      },
+      {
+        "reference": "cf696364-4a03-40d1-b5bd-58523001bdd3",
+        "email": "Filiberto.Halvorson40@yahoo.com",
+        "firstName": "Jaylan",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41224743",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "ed913045-c056-4397-a9ce-e4410f5293b7",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-08-24T08:22:16.251Z",
+        "updated_at": "2023-08-23T15:11:11.817Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04ca0b71-f787-478b-81f6-98f088377cd2",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development.",
+        "created_at": "2023-08-23T20:26:43.612Z",
+        "updated_at": "2023-08-24T07:52:20.697Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6dbbcb3-eb85-4b44-8711-54a9268ee6d2",
+        "title": "Data Analysis with Pandas",
+        "content": "Explore data analysis techniques using Pandas library.",
+        "created_at": "2023-08-23T22:03:41.332Z",
+        "updated_at": "2023-08-23T13:47:08.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a614eb6-44b3-43f1-b48a-7e6d086264ad",
+        "title": "Machine Learning Fundamentals",
+        "content": "Get started with machine learning concepts.",
+        "created_at": "2023-08-23T19:03:37.492Z",
+        "updated_at": "2023-08-23T13:30:09.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91e88a2c-f8cd-42c3-b3c8-5f3bbc0ab666",
+        "title": "Building RESTful APIs",
+        "content": "Learn how to build RESTful APIs using a framework.",
+        "created_at": "2023-08-24T00:01:51.838Z",
+        "updated_at": "2023-08-23T16:32:43.933Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "614f245a-ddc9-439f-b7b2-52f31c94373b",
+        "name": "Smart Home Assistant",
+        "description": "A voice-controlled device that helps automate your home.",
+        "price": 1704,
+        "created_at": "2023-08-23T16:46:52.986Z",
+        "updated_at": "2023-08-24T04:15:36.382Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b8be6404-a8c2-4fd3-8911-3fe94f3cb09f",
+        "name": "Wireless Bluetooth Earbuds",
+        "description": "High-quality earbuds with seamless Bluetooth connectivity.",
+        "price": 76380,
+        "created_at": "2023-08-23T20:41:28.059Z",
+        "updated_at": "2023-08-24T03:34:44.735Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eb9a7a5d-0bed-419e-869f-addade7729e2",
+        "name": "Fitness Tracker Watch",
+        "description": "Track your fitness activities and monitor your health.",
+        "price": 72378,
+        "created_at": "2023-08-23T23:36:50.501Z",
+        "updated_at": "2023-08-24T02:21:13.919Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7de11658-3c06-44b8-a85c-95b45144227b",
+        "name": "Portable Power Bank",
+        "description": "Charge your devices on the go with this portable power bank.",
+        "price": 56487,
+        "created_at": "2023-08-24T08:26:59.142Z",
+        "updated_at": "2023-08-23T12:34:04.299Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "223014f8-6587-48b3-a8c9-997eeda70603",
+        "name": "Smart LED Light Bulb",
+        "description": "Control your lighting remotely and save energy with smart LED bulbs.",
+        "price": 85656,
+        "created_at": "2023-08-23T20:35:01.430Z",
+        "updated_at": "2023-08-23T15:21:39.259Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "8d0e8385-6dff-4ee8-b458-e1b5f9455ec1",
+        "name": "Tech Expo 2022",
+        "description": "The largest technology exhibition showcasing the latest innovations.",
+        "date": "2023-08-23T12:24:27.912Z",
+        "created_at": "2023-08-24T08:00:23.356Z",
+        "updated_at": "2023-08-23T12:38:16.849Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3cedd645-bbc9-4e0c-9dc4-4f96c1fd79ab",
+        "name": "Startup Summit",
+        "description": "A gathering of entrepreneurs and investors to discuss startup ideas.",
+        "date": "2023-08-24T02:25:42.070Z",
+        "created_at": "2023-08-23T14:49:16.595Z",
+        "updated_at": "2023-08-24T07:25:01.664Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c4bdd313-7905-4026-ae2c-7f0733485ef7",
+        "name": "Health and Wellness Conference",
+        "description": "Join health experts and enthusiasts for informative sessions.",
+        "date": "2023-08-24T08:51:31.774Z",
+        "created_at": "2023-08-23T13:30:33.475Z",
+        "updated_at": "2023-08-24T01:11:09.145Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "623479f2-1af6-424a-ae67-5e8512e521ec",
+        "name": "Art Exhibition",
+        "description": "An exhibition featuring contemporary art from renowned artists.",
+        "date": "2023-08-23T10:58:07.279Z",
+        "created_at": "2023-08-24T04:44:30.254Z",
+        "updated_at": "2023-08-23T20:19:29.069Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "364bfc54-0348-4ff7-b12d-7dc82f859eef",
+        "name": "Music Festival",
+        "description": "Experience live music performances from top artists in this outdoor festival.",
+        "date": "2023-08-24T02:40:22.305Z",
+        "created_at": "2023-08-23T18:36:33.202Z",
+        "updated_at": "2023-08-23T14:10:15.380Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "614dca95-f622-40cb-baee-9bd0b759d9b6",
+        "bean_name": "Arabica",
+        "description": "A high-quality coffee bean known for its rich flavor.",
+        "created_at": "2023-08-24T07:06:21.108Z",
+        "updated_at": "2023-08-24T08:49:02.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7e5a1df-5ab3-4260-b690-dfbb48df45f6",
+        "bean_name": "Robusta",
+        "description": "A popular coffee bean variety with a strong taste.",
+        "created_at": "2023-08-23T11:18:26.398Z",
+        "updated_at": "2023-08-24T04:18:33.146Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56c464c8-324a-4faa-8fb6-32eb3f2b0e42",
+        "bean_name": "Liberica",
+        "description": "An exotic coffee bean with a unique aroma.",
+        "created_at": "2023-08-23T14:42:29.103Z",
+        "updated_at": "2023-08-23T16:40:07.403Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b362a840-1f8b-4fe6-adcd-b450291ac2ea",
+        "bean_name": "Excelsa",
+        "description": "A rare coffee bean variety with a distinct flavor profile.",
+        "created_at": "2023-08-24T02:42:18.145Z",
+        "updated_at": "2023-08-24T00:50:55.669Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "751e5880-134a-4de1-aaef-e8234c871bfb",
+        "bean_name": "Maragogipe",
+        "description": "A large-sized coffee bean with a smooth and delicate taste.",
+        "created_at": "2023-08-24T09:08:42.887Z",
+        "updated_at": "2023-08-23T14:24:51.603Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f10fcc6f-7664-4949-b973-82dced6575e0",
+        "email": "Eve_Bahringer83@gmail.com",
+        "firstName": "Hilton",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5452469",
+        "tenantId": null
+      },
+      {
+        "reference": "5e03ea41-d8f6-4924-939c-a02fade0d877",
+        "email": "Lowell.Cormier31@hotmail.com",
+        "firstName": "Cory",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/833.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5d678813-900f-4f03-83b1-9d3b0988ef3a",
+        "email": "Toni.Boyer-Spencer53@hotmail.com",
+        "firstName": "Lucius",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/805.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17e17923-ce68-4b34-90b8-b34d541cd6e5",
+        "email": "Halie.Gerhold@hotmail.com",
+        "firstName": "Heath",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/350.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77b63881-b7fb-4e72-a320-1fc431b45d29",
+        "email": "Adan70@gmail.com",
+        "firstName": "Ruthie",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37378126",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "cdc17b15-26fb-40b9-aad6-632f45541c00",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-08-24T04:25:55.089Z",
+        "updated_at": "2023-08-23T20:03:19.511Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e887e8d-59db-40fb-b10f-0d0a11b112b6",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development.",
+        "created_at": "2023-08-24T07:40:27.183Z",
+        "updated_at": "2023-08-24T01:27:47.001Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e723e4a3-570d-423b-a9a7-7f59ae60d2ff",
+        "title": "Machine Learning Fundamentals",
+        "content": "Explore the essentials of machine learning.",
+        "created_at": "2023-08-23T14:38:56.794Z",
+        "updated_at": "2023-08-24T05:16:58.765Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42b370d1-b7d4-4db5-8b42-748fe7b94ebd",
+        "title": "JavaScript for Beginners",
+        "content": "Get started with JavaScript programming.",
+        "created_at": "2023-08-24T03:31:14.927Z",
+        "updated_at": "2023-08-24T10:24:18.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73f32d48-ec11-48e4-9460-38bc6f96abb7",
+        "title": "Data Analysis Techniques",
+        "content": "Master data analysis techniques.",
+        "created_at": "2023-08-23T19:27:23.062Z",
+        "updated_at": "2023-08-24T05:47:38.489Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "58e9e91d-5c27-4949-9500-ae222372c4aa",
+        "name": "Smartphone",
+        "description": "A powerful smartphone with advanced features.",
+        "price": 26636,
+        "created_at": "2023-08-24T04:08:26.954Z",
+        "updated_at": "2023-08-23T13:47:56.331Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1203b62d-3e4a-4263-a78a-fe8f083a02f5",
+        "name": "Laptop",
+        "description": "A high-performance laptop for professional use.",
+        "price": 53910,
+        "created_at": "2023-08-23T13:38:17.765Z",
+        "updated_at": "2023-08-24T02:11:37.769Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ea38810a-54d9-49a8-9134-175e9325fdbe",
+        "name": "Headphones",
+        "description": "Premium headphones with superior sound quality.",
+        "price": 24297,
+        "created_at": "2023-08-23T19:56:48.439Z",
+        "updated_at": "2023-08-23T12:44:00.645Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "471950b7-5172-4d9e-9449-845155d97d15",
+        "name": "Smartwatch",
+        "description": "A smartwatch that tracks your fitness and health.",
+        "price": 49575,
+        "created_at": "2023-08-23T14:29:51.960Z",
+        "updated_at": "2023-08-24T00:20:13.888Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6439489a-4e01-47be-858b-13e7ca25d52f",
+        "name": "Tablet",
+        "description": "A versatile tablet for work and entertainment.",
+        "price": 61577,
+        "created_at": "2023-08-24T10:27:49.714Z",
+        "updated_at": "2023-08-23T16:37:59.582Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "53ba8746-7769-46e1-b625-3db6352b68e7",
+        "name": "Annual Conference",
+        "description": "Join us for our annual conference on innovation and technology.",
+        "date": "2023-08-23T12:58:21.037Z",
+        "created_at": "2023-08-24T04:34:36.310Z",
+        "updated_at": "2023-08-23T18:10:54.268Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "78c956d4-8b98-4d43-ae70-e267701c4093",
+        "name": "Music Festival",
+        "description": "Experience live performances by top artists at our music festival.",
+        "date": "2023-08-23T13:18:51.184Z",
+        "created_at": "2023-08-23T14:01:52.174Z",
+        "updated_at": "2023-08-23T11:17:20.302Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "198efdb8-d162-461b-b50d-85041ad3c187",
+        "name": "Charity Gala",
+        "description": "Support a good cause at our charity gala event.",
+        "date": "2023-08-23T13:49:53.512Z",
+        "created_at": "2023-08-23T23:06:28.431Z",
+        "updated_at": "2023-08-24T09:56:03.885Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b2365a75-202c-4531-aedb-584e4ca11f14",
+        "name": "Sports Tournament",
+        "description": "Witness thrilling sports action at our tournament.",
+        "date": "2023-08-24T01:53:37.793Z",
+        "created_at": "2023-08-24T02:03:07.677Z",
+        "updated_at": "2023-08-24T09:18:20.611Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "497accd8-fa55-486e-83d5-413e3ed1794d",
+        "name": "Tech Expo",
+        "description": "Discover the latest technological advancements at our tech expo.",
+        "date": "2023-08-24T07:09:20.386Z",
+        "created_at": "2023-08-23T20:11:39.738Z",
+        "updated_at": "2023-08-24T06:48:49.311Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "6d3d19ab-1854-456e-bda3-1e33bde9fe80",
+        "bean_name": "Arabica",
+        "description": "A smooth and aromatic coffee bean.",
+        "created_at": "2023-08-24T01:46:03.468Z",
+        "updated_at": "2023-08-24T07:59:31.913Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71a7ae42-13bb-41a2-bd0a-60f46ad5437a",
+        "bean_name": "Robusta",
+        "description": "A strong and bold coffee bean.",
+        "created_at": "2023-08-24T00:42:55.683Z",
+        "updated_at": "2023-08-23T18:35:29.948Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6759d0f-95d7-4783-8877-742ab5da3a87",
+        "bean_name": "Liberica",
+        "description": "An exotic and unique coffee bean.",
+        "created_at": "2023-08-23T12:52:18.209Z",
+        "updated_at": "2023-08-23T17:18:16.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77d8b2a3-8f97-4a42-a089-847e726eb8a9",
+        "bean_name": "Excelsa",
+        "description": "A rare and distinctive coffee bean.",
+        "created_at": "2023-08-23T23:43:52.663Z",
+        "updated_at": "2023-08-23T18:09:58.173Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbeecfe8-effd-4f24-9a40-9465fd397925",
+        "bean_name": "Catimor",
+        "description": "A balanced and flavorful coffee bean.",
+        "created_at": "2023-08-23T17:29:38.734Z",
+        "updated_at": "2023-08-24T02:17:55.230Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5cc4b735-39bb-42e8-972d-730e9e870642",
+        "email": "Sibyl_Romaguera61@yahoo.com",
+        "firstName": "Caitlyn",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "751a5077-dca3-42a6-b6d6-523332a8caa3",
+        "email": "Curtis_Funk93@yahoo.com",
+        "firstName": "Kellie",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47021583",
+        "tenantId": null
+      },
+      {
+        "reference": "1ee38e82-373d-401d-8553-b64305c9fb76",
+        "email": "Terrence.Kemmer7@hotmail.com",
+        "firstName": "Monica",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69685412",
+        "tenantId": null
+      },
+      {
+        "reference": "015d8f76-9279-45b8-9fe7-3b209d507f1c",
+        "email": "Maiya_Balistreri@hotmail.com",
+        "firstName": "Tremaine",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43bcc513-b4b4-4603-a827-618671d93517",
+        "email": "Reggie52@yahoo.com",
+        "firstName": "Ward",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1249.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "c3408ef8-ec3f-4bae-a077-f8e525a0b2d2",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language",
+        "created_at": "2023-08-23T20:50:44.981Z",
+        "updated_at": "2023-08-23T23:08:58.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "530da0af-0543-4e42-8f49-6e014cc34bf7",
+        "title": "Web Development Basics",
+        "content": "Explore the fundamentals of web development",
+        "created_at": "2023-08-23T13:48:36.994Z",
+        "updated_at": "2023-08-24T09:19:40.982Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af101e07-58ef-4654-a6a7-bf8b7fac26b1",
+        "title": "Machine Learning Fundamentals",
+        "content": "Discover the essentials of machine learning",
+        "created_at": "2023-08-23T19:45:34.862Z",
+        "updated_at": "2023-08-23T21:50:33.865Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5939dc0a-9825-4165-8333-e48944cbe918",
+        "title": "Data Analysis Techniques",
+        "content": "Master data analysis techniques using Python",
+        "created_at": "2023-08-24T05:17:15.557Z",
+        "updated_at": "2023-08-24T08:34:06.853Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ba14a5e-08bd-4f30-80ef-7f441ad91c2c",
+        "title": "Mobile App Development",
+        "content": "Build your own mobile app from scratch",
+        "created_at": "2023-08-23T17:38:16.849Z",
+        "updated_at": "2023-08-23T19:18:20.018Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "f6384252-2656-413f-ba5f-aefa74bd1467",
+        "name": "Smart Home Assistant",
+        "description": "Make your life easier with our smart home assistant",
+        "price": 52093,
+        "created_at": "2023-08-24T02:28:13.199Z",
+        "updated_at": "2023-08-23T14:25:14.315Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9c70323d-e144-4007-94c9-4fc6ffe59594",
+        "name": "Wireless Earbuds",
+        "description": "Experience crystal clear audio with our wireless earbuds",
+        "price": 12130,
+        "created_at": "2023-08-24T09:43:35.769Z",
+        "updated_at": "2023-08-23T14:54:39.104Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6f437b12-ff2a-468a-957b-ea8039e8b6a5",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with our advanced fitness tracker",
+        "price": 42045,
+        "created_at": "2023-08-23T11:15:55.140Z",
+        "updated_at": "2023-08-23T23:51:11.052Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3a7a8462-6b6d-47d1-b8c1-a01e49b28de5",
+        "name": "Portable Bluetooth Speaker",
+        "description": "Enjoy your favorite music on the go with our portable speaker",
+        "price": 19169,
+        "created_at": "2023-08-24T03:25:47.217Z",
+        "updated_at": "2023-08-23T17:48:26.936Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "55cd1abd-073f-4b08-bc0f-a57e9b0e4486",
+        "name": "Smartphone Case",
+        "description": "Protect your smartphone with our stylish and durable case",
+        "price": 6443,
+        "created_at": "2023-08-23T12:25:52.830Z",
+        "updated_at": "2023-08-24T06:29:34.208Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "6c87cb92-6dbc-4e4a-9fe1-6311cab4e4f9",
+        "name": "Tech Expo 2022",
+        "description": "Join us at the largest tech expo of the year",
+        "date": "2023-08-24T02:09:18.352Z",
+        "created_at": "2023-08-23T11:57:16.094Z",
+        "updated_at": "2023-08-23T22:57:34.085Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e3fbf3e5-29da-492f-a78d-96cb95f5b45e",
+        "name": "Startup Summit",
+        "description": "Connect with fellow entrepreneurs at the startup summit",
+        "date": "2023-08-23T22:23:35.936Z",
+        "created_at": "2023-08-24T07:45:53.356Z",
+        "updated_at": "2023-08-24T09:47:09.091Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e32dc8a9-5ed2-4189-aa7b-dfd834735c5f",
+        "name": "Digital Marketing Conference",
+        "description": "Learn the latest trends in digital marketing",
+        "date": "2023-08-23T22:07:28.269Z",
+        "created_at": "2023-08-23T22:22:56.088Z",
+        "updated_at": "2023-08-23T18:53:15.081Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6a3e67af-9007-4727-a95e-dc049ff21e1a",
+        "name": "Health and Wellness Fair",
+        "description": "Discover the latest health and wellness products",
+        "date": "2023-08-24T01:16:29.444Z",
+        "created_at": "2023-08-24T02:56:32.303Z",
+        "updated_at": "2023-08-23T20:08:22.130Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d83377d-9a39-48d9-93c0-2395c1890f94",
+        "name": "Artificial Intelligence Symposium",
+        "description": "Explore the future of artificial intelligence",
+        "date": "2023-08-23T20:53:45.635Z",
+        "created_at": "2023-08-24T10:31:47.051Z",
+        "updated_at": "2023-08-24T07:54:56.643Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "8d15d9f4-895a-445f-8629-0aac88841470",
+        "bean_name": "Arabica",
+        "description": "Indulge in the rich flavors of Arabica beans",
+        "created_at": "2023-08-23T23:29:48.474Z",
+        "updated_at": "2023-08-23T18:12:49.541Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c2a2c53-6c16-473a-a33a-f739072c3e8a",
+        "bean_name": "Robusta",
+        "description": "Experience the boldness of Robusta beans",
+        "created_at": "2023-08-23T17:14:27.885Z",
+        "updated_at": "2023-08-23T11:17:48.741Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "836e72f2-5a43-4e5c-aa5c-3b5b35844d7e",
+        "bean_name": "Espresso",
+        "description": "Enjoy the intense aroma of Espresso beans",
+        "created_at": "2023-08-23T15:11:44.944Z",
+        "updated_at": "2023-08-23T16:39:53.007Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "780ddc28-48fa-4482-a40b-33bba49ef738",
+        "bean_name": "Mocha",
+        "description": "Savor the smoothness of Mocha beans",
+        "created_at": "2023-08-23T13:33:39.389Z",
+        "updated_at": "2023-08-23T16:18:22.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f35cd87-85a2-4a5c-a289-58ce86e6ec2c",
+        "bean_name": "Cappuccino",
+        "description": "Delight in the frothy goodness of Cappuccino beans",
+        "created_at": "2023-08-24T06:19:56.161Z",
+        "updated_at": "2023-08-23T16:59:33.277Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34037241-28cd-409d-a240-ff45e6017b5f",
+        "email": "Kacie.Jacobs21@yahoo.com",
+        "firstName": "Simeon",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/84.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d765a38c-2415-4903-baeb-8d24c84d3e03",
+        "email": "Amanda.Goyette75@hotmail.com",
+        "firstName": "Pasquale",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e79d3be3-60ad-4b8f-9bf6-ed9bf62bf967",
+        "email": "Carli_Breitenberg@hotmail.com",
+        "firstName": "Adolfo",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/885.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1cdc9395-d304-46cd-bce7-88da0ee0fc76",
+        "email": "Veronica.Ratke-Lind14@yahoo.com",
+        "firstName": "Mathilde",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85757028",
+        "tenantId": null
+      },
+      {
+        "reference": "79ffa4a7-4884-40d8-83b3-84c3f14d9f8c",
+        "email": "Ludie_Morissette-Streich34@gmail.com",
+        "firstName": "Rhoda",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "62fbe81a-af91-4ab1-9d16-2ca017a69956",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-08-23T16:16:31.588Z",
+        "updated_at": "2023-08-24T07:31:04.885Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ac28ec2-84f4-4d52-b111-b7fb41d17ace",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development.",
+        "created_at": "2023-08-23T14:01:03.698Z",
+        "updated_at": "2023-08-23T14:58:14.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0295a08-5799-4292-885d-692660f18c78",
+        "title": "Machine Learning Fundamentals",
+        "content": "Get started with machine learning concepts.",
+        "created_at": "2023-08-23T22:26:11.235Z",
+        "updated_at": "2023-08-23T21:13:50.036Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac3c945f-9f72-4e67-96f4-f7e9f3c524d4",
+        "title": "JavaScript Crash Course",
+        "content": "Master JavaScript with this crash course.",
+        "created_at": "2023-08-24T03:48:13.315Z",
+        "updated_at": "2023-08-24T05:22:41.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fccd1cab-42c8-4506-a21d-d41c12818edc",
+        "title": "Data Analysis Techniques",
+        "content": "Explore various data analysis techniques.",
+        "created_at": "2023-08-24T04:57:25.778Z",
+        "updated_at": "2023-08-23T11:27:14.756Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "5944d3b5-3212-4661-9903-2388b20ed671",
+        "name": "Smartphone",
+        "description": "A high-performance smartphone with advanced features.",
+        "price": 92712,
+        "created_at": "2023-08-24T00:16:54.008Z",
+        "updated_at": "2023-08-23T16:40:59.009Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f0ed962e-4afa-48b8-bb96-047878939405",
+        "name": "Laptop",
+        "description": "A powerful laptop for professional use.",
+        "price": 44202,
+        "created_at": "2023-08-23T15:36:58.389Z",
+        "updated_at": "2023-08-24T03:01:40.392Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ff601dcd-f830-48cf-b15c-ed7ded16f2a7",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with this smart device.",
+        "price": 37761,
+        "created_at": "2023-08-24T10:18:59.393Z",
+        "updated_at": "2023-08-24T09:43:38.083Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7a38ad4f-b21c-4ca7-9593-c7dcf3713c4d",
+        "name": "Wireless Headphones",
+        "description": "Enjoy wireless audio with these premium headphones.",
+        "price": 23225,
+        "created_at": "2023-08-23T13:54:31.574Z",
+        "updated_at": "2023-08-24T00:09:30.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c2209f3-26a0-4503-94b6-2f4dfbb533c0",
+        "name": "Smart Home Device",
+        "description": "Automate your home with this smart device.",
+        "price": 65717,
+        "created_at": "2023-08-23T12:10:00.698Z",
+        "updated_at": "2023-08-24T06:37:35.924Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "4a27e547-b1df-4f0a-92ad-bee16493a5f0",
+        "name": "Tech Conference",
+        "description": "An annual conference showcasing the latest technology trends.",
+        "date": "2023-08-23T13:34:20.706Z",
+        "created_at": "2023-08-23T13:33:34.925Z",
+        "updated_at": "2023-08-24T04:15:28.935Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1103a08e-5ce5-4e6f-b2c1-0a97d7a7516b",
+        "name": "Music Festival",
+        "description": "A multi-day music festival featuring top artists.",
+        "date": "2023-08-24T07:55:41.608Z",
+        "created_at": "2023-08-24T00:46:50.473Z",
+        "updated_at": "2023-08-23T18:35:50.657Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "51e7f38a-a273-4972-b594-c27d5634865a",
+        "name": "Charity Gala",
+        "description": "A fundraising gala for a charitable cause.",
+        "date": "2023-08-23T19:51:38.698Z",
+        "created_at": "2023-08-24T10:44:37.166Z",
+        "updated_at": "2023-08-23T18:19:46.176Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "48c2660e-9c70-418e-9ebc-30034c2afd3b",
+        "name": "Sports Tournament",
+        "description": "A competitive sports tournament with various disciplines.",
+        "date": "2023-08-23T19:38:47.049Z",
+        "created_at": "2023-08-23T19:33:46.679Z",
+        "updated_at": "2023-08-24T00:07:00.090Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "da813362-8ca5-468a-b23a-96578b7afb89",
+        "name": "Art Exhibition",
+        "description": "An art exhibition showcasing local and international artists.",
+        "date": "2023-08-24T04:29:26.252Z",
+        "created_at": "2023-08-24T03:56:55.802Z",
+        "updated_at": "2023-08-23T12:54:29.950Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "135af3d8-9f85-485b-b9d2-18bbeaf02f72",
+        "bean_name": "Arabica",
+        "description": "A premium coffee bean known for its rich flavor.",
+        "created_at": "2023-08-23T20:14:14.408Z",
+        "updated_at": "2023-08-23T23:36:46.404Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a993bc5-88a3-4800-8278-3edc7d5cb78c",
+        "bean_name": "Robusta",
+        "description": "A strong coffee bean with a bold taste.",
+        "created_at": "2023-08-23T18:29:18.329Z",
+        "updated_at": "2023-08-24T07:15:28.012Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b849ca95-f7b5-4dbf-a8bc-1b642cadb288",
+        "bean_name": "Liberica",
+        "description": "An exotic coffee bean with a unique aroma.",
+        "created_at": "2023-08-23T17:29:59.303Z",
+        "updated_at": "2023-08-23T22:29:01.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6ec8562-592b-473b-9c17-e8c1d652ef94",
+        "bean_name": "Excelsa",
+        "description": "A rare coffee bean variety with a distinct profile.",
+        "created_at": "2023-08-24T03:46:32.254Z",
+        "updated_at": "2023-08-24T00:07:27.950Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99c6825a-a70b-4fc2-9b8c-eb3224ad93f0",
+        "bean_name": "Maragogipe",
+        "description": "A large coffee bean with a smooth texture.",
+        "created_at": "2023-08-24T10:57:33.140Z",
+        "updated_at": "2023-08-23T11:00:47.770Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "edbf0370-2ff6-4ab1-93d5-6315a6e3def0",
+        "email": "Nayeli.OKon29@hotmail.com",
+        "firstName": "Clifford",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "377599d1-29cd-49db-b5be-1b0080eccc14",
+        "email": "Bettie.Beahan@yahoo.com",
+        "firstName": "Courtney",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89477993",
+        "tenantId": null
+      },
+      {
+        "reference": "52dc606c-6427-494c-bb1c-36035220c878",
+        "email": "Daren_Ruecker93@yahoo.com",
+        "firstName": "Imani",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57164263",
+        "tenantId": null
+      },
+      {
+        "reference": "d3731e85-c05c-49fd-b103-a61e30618fa5",
+        "email": "Benjamin27@gmail.com",
+        "firstName": "Josiane",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/397.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5df96201-babd-43e2-a89d-c5007f3109fa",
+        "email": "Marcelino.Stracke@yahoo.com",
+        "firstName": "Joany",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66817630",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "27a92843-aecf-4300-b455-a8be47019235",
+        "title": "Introduction to Python",
+        "content": "Learn the fundamentals of Python programming language.",
+        "created_at": "2023-08-23T22:44:07.718Z",
+        "updated_at": "2023-08-24T04:43:55.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3c57485-8d43-4f4e-a759-fda1df868089",
+        "title": "Web Development Basics",
+        "content": "Explore the basics of web development.",
+        "created_at": "2023-08-24T02:53:41.523Z",
+        "updated_at": "2023-08-23T19:28:06.101Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e08ea781-25a0-4468-b67c-0ff792c986a9",
+        "title": "Data Analysis with Pandas",
+        "content": "Discover how to analyze data using Pandas library.",
+        "created_at": "2023-08-23T18:58:12.779Z",
+        "updated_at": "2023-08-24T06:16:23.098Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cab2993-f650-418e-ae2f-b8a7b044cc4f",
+        "title": "Machine Learning Algorithms",
+        "content": "Get hands-on experience with various machine learning algorithms.",
+        "created_at": "2023-08-24T00:44:55.223Z",
+        "updated_at": "2023-08-24T07:55:03.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c51e2d5f-6b7b-4242-9315-dd7aeb2acb26",
+        "title": "Building RESTful APIs",
+        "content": "Learn how to build RESTful APIs using a popular framework.",
+        "created_at": "2023-08-23T16:30:00.838Z",
+        "updated_at": "2023-08-23T19:05:00.027Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "d45fa4f5-ebd2-4d69-8444-479645a7d0d2",
+        "name": "Smart Home Security System",
+        "description": "Protect your home with our advanced security system.",
+        "price": 28330,
+        "created_at": "2023-08-23T12:08:51.305Z",
+        "updated_at": "2023-08-24T00:48:49.586Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d9a29939-5b3f-49fa-9ee8-3edeb0701789",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Enjoy wireless music with our high-quality earphones.",
+        "price": 33306,
+        "created_at": "2023-08-23T14:11:34.850Z",
+        "updated_at": "2023-08-23T22:55:49.648Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e8212f48-0c5f-4376-a9f9-023c95dc7a2c",
+        "name": "Fitness Tracker Watch",
+        "description": "Track your fitness goals with our stylish watch.",
+        "price": 70341,
+        "created_at": "2023-08-23T21:14:22.197Z",
+        "updated_at": "2023-08-24T01:31:27.433Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7299f2b3-8587-42df-8c5a-d41739e7775b",
+        "name": "Portable Power Bank",
+        "description": "Charge your devices on the go with our portable power bank.",
+        "price": 98334,
+        "created_at": "2023-08-24T09:36:40.566Z",
+        "updated_at": "2023-08-23T14:20:19.270Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b35d3f4c-f666-43c5-a0e5-410764c264af",
+        "name": "Smartphone Camera Lens Kit",
+        "description": "Capture professional-quality photos with our smartphone camera lens kit.",
+        "price": 2895,
+        "created_at": "2023-08-23T23:05:06.158Z",
+        "updated_at": "2023-08-24T08:26:40.316Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "5c0295d8-b986-41e8-910a-09ecdf0e0c38",
+        "name": "Tech Conference 2022",
+        "description": "Join us for the biggest tech conference of the year.",
+        "date": "2023-08-24T05:46:35.355Z",
+        "created_at": "2023-08-24T04:45:22.611Z",
+        "updated_at": "2023-08-24T03:38:31.255Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "23f8814e-f2ab-4c37-915b-478c3375b401",
+        "name": "Music Festival Extravaganza",
+        "description": "Experience live music performances from top artists.",
+        "date": "2023-08-24T09:17:14.152Z",
+        "created_at": "2023-08-23T18:02:27.682Z",
+        "updated_at": "2023-08-23T20:55:07.472Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7804d87e-7702-4c35-8bed-ec97f9347c11",
+        "name": "Art Exhibition Opening Night",
+        "description": "Discover stunning artworks at our exhibition opening night.",
+        "date": "2023-08-23T17:30:15.450Z",
+        "created_at": "2023-08-23T17:09:28.880Z",
+        "updated_at": "2023-08-23T12:15:56.995Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e045b89b-0f59-4cb9-9549-cd1190097ebb",
+        "name": "Sports Tournament Finals",
+        "description": "Witness the intense competition of the sports tournament finals.",
+        "date": "2023-08-23T19:08:51.520Z",
+        "created_at": "2023-08-24T07:42:18.607Z",
+        "updated_at": "2023-08-24T05:41:14.885Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d0b8dca-d34d-4d04-83c9-4e2a2f5b00ec",
+        "name": "Charity Gala Dinner",
+        "description": "Support a good cause at our charity gala dinner.",
+        "date": "2023-08-23T13:52:23.970Z",
+        "created_at": "2023-08-24T03:44:44.885Z",
+        "updated_at": "2023-08-23T22:16:46.868Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "3d4d3399-aca7-4e32-920b-8af5f2e68877",
+        "bean_name": "Arabica Coffee Beans",
+        "description": "Experience the rich flavor of our Arabica coffee beans.",
+        "created_at": "2023-08-24T04:59:06.678Z",
+        "updated_at": "2023-08-23T17:01:10.017Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd2182ee-e51f-4e5d-a095-ce12f4f6aa9b",
+        "bean_name": "Cocoa Beans",
+        "description": "Indulge in the sweetness of our cocoa beans.",
+        "created_at": "2023-08-23T15:21:27.911Z",
+        "updated_at": "2023-08-23T20:07:35.009Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10044ffc-2b79-4ab8-8f49-09a09ccebfb6",
+        "bean_name": "Vanilla Beans",
+        "description": "Enhance your recipes with our aromatic vanilla beans.",
+        "created_at": "2023-08-23T19:25:40.491Z",
+        "updated_at": "2023-08-23T13:53:11.500Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9a8b5c9-b408-4bef-b98f-f484c54ed5c5",
+        "bean_name": "Soybeans",
+        "description": "Discover the versatility of soybeans in various dishes.",
+        "created_at": "2023-08-24T04:41:36.960Z",
+        "updated_at": "2023-08-24T06:12:54.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aae3e12-67e9-433f-ba84-45840eea11c2",
+        "bean_name": "Black Beans",
+        "description": "Enjoy the nutritional benefits of black beans in your meals.",
+        "created_at": "2023-08-24T08:07:25.594Z",
+        "updated_at": "2023-08-24T06:29:27.866Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25d37d05-0b0d-4df9-a52d-a1b8d902727c",
+        "email": "Mariano.Mills@hotmail.com",
+        "firstName": "Gillian",
+        "lastName": "Langosh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98571634",
+        "tenantId": null
+      },
+      {
+        "reference": "ab39f00d-36da-44cb-aaf1-cbab6e2d9586",
+        "email": "Robert.Schumm20@gmail.com",
+        "firstName": "Johnson",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/589.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "548da2fc-2c7c-4cb9-8295-7e96df648ba1",
+        "email": "Allan.Mayer@hotmail.com",
+        "firstName": "Eriberto",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59462893",
+        "tenantId": null
+      },
+      {
+        "reference": "9035d3e9-ae7f-4c5e-9680-e15e79e9dfcf",
+        "email": "Brenna91@hotmail.com",
+        "firstName": "Montana",
+        "lastName": "Rath-Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/985.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23f2ed18-cd76-43da-948a-ef2f9eb4dced",
+        "email": "Oscar_Thompson14@gmail.com",
+        "firstName": "Jayme",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79222964",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "c9dce2d3-21d6-4265-b7c4-bc8897ddf1df",
+        "title": "Introduction to Programming",
+        "content": "Learn the basics of programming in this tutorial",
+        "created_at": "2023-08-23T23:00:16.606Z",
+        "updated_at": "2023-08-24T06:17:44.755Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddadc79a-0995-4a57-ab39-0e789dee4228",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development",
+        "created_at": "2023-08-24T06:31:51.271Z",
+        "updated_at": "2023-08-23T13:35:56.198Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89a02065-894c-4513-a9b6-83ded94d928e",
+        "title": "Data Analysis Techniques",
+        "content": "Explore various data analysis techniques",
+        "created_at": "2023-08-23T20:11:54.169Z",
+        "updated_at": "2023-08-23T21:57:18.223Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a28d3bed-e245-4c35-bc01-d94b8d57cb7b",
+        "title": "Machine Learning Fundamentals",
+        "content": "Get started with machine learning",
+        "created_at": "2023-08-24T10:59:14.874Z",
+        "updated_at": "2023-08-23T23:16:06.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb5c7213-255e-47e6-9d4d-4826ff9f3062",
+        "title": "Mobile App Development",
+        "content": "Build your own mobile app",
+        "created_at": "2023-08-23T23:59:27.024Z",
+        "updated_at": "2023-08-23T13:07:49.789Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "b9cf23e1-f094-49ad-af7d-ed95872ba6e4",
+        "name": "Smart Home Assistant",
+        "description": "Experience the convenience of a smart home assistant",
+        "price": 33658,
+        "created_at": "2023-08-24T04:15:23.820Z",
+        "updated_at": "2023-08-23T20:52:32.976Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0fbd3662-60fc-4df5-8687-98b8fe841f59",
+        "name": "Wireless Earbuds",
+        "description": "Enjoy high-quality audio with wireless earbuds",
+        "price": 17480,
+        "created_at": "2023-08-24T03:17:20.302Z",
+        "updated_at": "2023-08-23T21:18:42.705Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "282274e9-d175-4467-974a-1448d171c5f3",
+        "name": "Fitness Tracker",
+        "description": "Track your fitness goals with this advanced device",
+        "price": 43055,
+        "created_at": "2023-08-23T21:55:34.511Z",
+        "updated_at": "2023-08-23T13:46:55.836Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d14af8d6-e521-4f81-a77a-10370b3d8189",
+        "name": "Portable Bluetooth Speaker",
+        "description": "Take your music anywhere with a portable speaker",
+        "price": 64185,
+        "created_at": "2023-08-24T01:06:56.066Z",
+        "updated_at": "2023-08-24T09:51:42.673Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9aec504b-9ed5-4bab-8b23-15d3957bbda4",
+        "name": "Smartwatch",
+        "description": "Stay connected and stylish with a smartwatch",
+        "price": 10916,
+        "created_at": "2023-08-24T10:24:47.972Z",
+        "updated_at": "2023-08-23T11:18:07.875Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "75259469-9e9c-4a4c-b194-d304316f5d62",
+        "name": "Tech Expo 2022",
+        "description": "Join us at the largest tech expo of the year",
+        "date": "2023-08-23T21:31:49.494Z",
+        "created_at": "2023-08-23T20:52:43.670Z",
+        "updated_at": "2023-08-24T07:43:25.358Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "56a367bc-28af-4866-ae76-482e3833833d",
+        "name": "Startup Summit",
+        "description": "Connect with industry leaders at the startup summit",
+        "date": "2023-08-24T08:37:14.558Z",
+        "created_at": "2023-08-23T13:07:15.724Z",
+        "updated_at": "2023-08-23T11:39:38.576Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46bcd4ac-ed5b-4efc-ba8c-87863857764d",
+        "name": "Innovation Conference",
+        "description": "Explore innovative ideas at the innovation conference",
+        "date": "2023-08-24T02:37:10.601Z",
+        "created_at": "2023-08-23T13:19:44.800Z",
+        "updated_at": "2023-08-24T00:12:12.809Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bb11da1f-6d31-483d-8d18-fb2626aaa999",
+        "name": "Digital Marketing Forum",
+        "description": "Learn the latest trends in digital marketing",
+        "date": "2023-08-23T12:59:06.558Z",
+        "created_at": "2023-08-23T14:18:25.020Z",
+        "updated_at": "2023-08-24T07:39:27.375Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "81c5a0a4-04d6-49f3-b3fc-d2a42065fdf8",
+        "name": "Entrepreneurship Workshop",
+        "description": "Gain valuable insights at the entrepreneurship workshop",
+        "date": "2023-08-24T06:36:29.014Z",
+        "created_at": "2023-08-23T22:18:11.423Z",
+        "updated_at": "2023-08-23T19:32:19.442Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "f4ca9e29-ddb8-4037-9e2b-64bdd1f23a24",
+        "bean_name": "Arabica",
+        "description": "Discover the rich flavors of Arabica beans",
+        "created_at": "2023-08-24T08:14:29.199Z",
+        "updated_at": "2023-08-24T08:14:05.470Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846828d2-8f0b-49bc-9a2b-d2753b6dc488",
+        "bean_name": "Robusta",
+        "description": "Experience the bold taste of Robusta beans",
+        "created_at": "2023-08-24T01:37:52.475Z",
+        "updated_at": "2023-08-24T04:35:16.127Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e960be7-aea3-4a6a-a68b-09eee3d1e6ff",
+        "bean_name": "Liberica",
+        "description": "Try the unique aroma of Liberica beans",
+        "created_at": "2023-08-24T01:04:05.770Z",
+        "updated_at": "2023-08-24T04:09:11.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07dd0d26-dc9a-4647-8db3-69aff0c5d676",
+        "bean_name": "Excelsa",
+        "description": "Indulge in the exotic flavors of Excelsa beans",
+        "created_at": "2023-08-23T17:48:36.766Z",
+        "updated_at": "2023-08-24T03:24:06.280Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bbed873-1209-4e39-aefa-aa2293928dce",
+        "bean_name": "Catimor",
+        "description": "Savor the smoothness of Catimor beans",
+        "created_at": "2023-08-23T18:17:13.868Z",
+        "updated_at": "2023-08-23T21:00:51.749Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bbf4f0d3-57b6-49e0-9c94-715c56617140",
+        "email": "Rossie_Durgan@gmail.com",
+        "firstName": "Madaline",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "96cda81e-201c-4451-94bf-d132971ef4da",
+        "email": "Fae_OHara19@hotmail.com",
+        "firstName": "Abbigail",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/781.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1a1057c2-b7d8-45da-9053-47a7f2c254ef",
+        "email": "Kayley.Lind73@yahoo.com",
+        "firstName": "Nedra",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/668.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c046abb-08ef-4d05-8ebd-fd594f462b0a",
+        "email": "Murl_Torp73@gmail.com",
+        "firstName": "Loy",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8051420c-2584-4221-aefc-70709b51833b",
+        "email": "Josefa.Tillman75@hotmail.com",
+        "firstName": "Freeman",
+        "lastName": "Morissette-Gutkowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "1927c388-03b0-4a04-9c17-1bcf8806fb16",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language",
+        "created_at": "2023-08-23T16:18:43.950Z",
+        "updated_at": "2023-08-23T13:37:28.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "742ae2ee-a8fe-427f-a027-39d515968bfe",
+        "title": "Web Development Basics",
+        "content": "Explore the fundamentals of web development",
+        "created_at": "2023-08-24T03:13:02.138Z",
+        "updated_at": "2023-08-24T06:26:32.720Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2eb02b57-5f7d-42eb-9de5-15f2637a57a3",
+        "title": "Machine Learning Fundamentals",
+        "content": "Discover the essentials of machine learning",
+        "created_at": "2023-08-24T03:33:48.596Z",
+        "updated_at": "2023-08-24T09:47:39.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc413ed7-e9ba-42a6-8dbc-0236ecac3d8b",
+        "title": "Data Analysis Techniques",
+        "content": "Master data analysis techniques",
+        "created_at": "2023-08-23T23:02:20.073Z",
+        "updated_at": "2023-08-24T00:02:08.410Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "751421b7-e9aa-41fd-aa40-ce2ab1ab86ab",
+        "title": "Mobile App Development",
+        "content": "Build your own mobile app",
+        "created_at": "2023-08-24T06:16:11.735Z",
+        "updated_at": "2023-08-23T12:18:14.769Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "b4b4915e-9af6-40c2-b91e-6da22e73ceed",
+        "name": "Smart Home Security System",
+        "description": "Enhance the security of your home with our advanced smart system",
+        "price": 69692,
+        "created_at": "2023-08-23T21:57:10.488Z",
+        "updated_at": "2023-08-23T17:56:55.011Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e29b854a-33c9-4d9d-90f0-1f733cc1264e",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Enjoy wireless audio freedom with our high-quality earphones",
+        "price": 71575,
+        "created_at": "2023-08-23T16:44:15.953Z",
+        "updated_at": "2023-08-23T23:29:08.712Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d61c01a0-0391-4436-bb54-5f879cf6a95c",
+        "name": "Portable Power Bank",
+        "description": "Stay powered on the go with our portable and reliable power bank",
+        "price": 72628,
+        "created_at": "2023-08-23T22:35:42.354Z",
+        "updated_at": "2023-08-23T12:32:28.177Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2668b461-59b3-4979-9ca2-e8a92ce95682",
+        "name": "Fitness Tracker Watch",
+        "description": "Track your fitness goals with our stylish and feature-packed watch",
+        "price": 62912,
+        "created_at": "2023-08-24T07:54:44.642Z",
+        "updated_at": "2023-08-23T20:32:48.145Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2c4fb108-07db-4fa0-ae71-9214c4110a52",
+        "name": "Smartphone Camera Lens Kit",
+        "description": "Capture professional-quality photos with our smartphone camera lens kit",
+        "price": 49098,
+        "created_at": "2023-08-24T09:03:27.935Z",
+        "updated_at": "2023-08-24T07:17:39.987Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "975d9276-b721-4eb3-aac0-6cce74aaf418",
+        "name": "Tech Expo 2022",
+        "description": "Join us at the largest tech expo of the year",
+        "date": "2023-08-23T17:58:59.866Z",
+        "created_at": "2023-08-23T21:14:26.383Z",
+        "updated_at": "2023-08-23T11:53:28.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13a1fe65-292a-44e5-8153-f416d054f26f",
+        "name": "Music Festival",
+        "description": "Experience live music performances from top artists",
+        "date": "2023-08-23T20:42:36.647Z",
+        "created_at": "2023-08-24T04:31:22.806Z",
+        "updated_at": "2023-08-24T10:17:55.216Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c72cdc89-2aae-4b6f-a84d-c1b22f442b2c",
+        "name": "Health and Wellness Conference",
+        "description": "Learn about the latest trends in health and wellness",
+        "date": "2023-08-23T21:12:43.793Z",
+        "created_at": "2023-08-23T12:55:21.389Z",
+        "updated_at": "2023-08-23T20:51:30.960Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "81128ef4-66ae-4b44-a50e-b3ba582b2c3c",
+        "name": "Business Networking Event",
+        "description": "Expand your professional network at this exclusive event",
+        "date": "2023-08-24T02:25:41.058Z",
+        "created_at": "2023-08-23T11:31:28.741Z",
+        "updated_at": "2023-08-24T06:48:32.424Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82977791-87ea-4951-8380-dc5b1f1bff6f",
+        "name": "Art Exhibition",
+        "description": "Discover amazing artworks by talented artists",
+        "date": "2023-08-23T20:02:03.089Z",
+        "created_at": "2023-08-23T20:44:28.804Z",
+        "updated_at": "2023-08-24T09:46:14.346Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "6e0ae04b-5db8-48bb-a194-8970ce3fb123",
+        "bean_name": "Arabica",
+        "description": "Indulge in the rich flavors of our premium Arabica beans",
+        "created_at": "2023-08-23T18:35:13.954Z",
+        "updated_at": "2023-08-23T13:00:44.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54041d70-57c7-435c-9af8-0bb822e4f7a1",
+        "bean_name": "Robusta",
+        "description": "Experience the bold taste of our Robusta beans",
+        "created_at": "2023-08-24T06:28:30.186Z",
+        "updated_at": "2023-08-23T12:14:49.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5c4863-28f5-4b6c-8c60-1122ba28a70a",
+        "bean_name": "Liberica",
+        "description": "Discover the unique aroma of our Liberica beans",
+        "created_at": "2023-08-24T06:32:44.710Z",
+        "updated_at": "2023-08-23T12:36:20.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d7711eb-cee0-4970-8dee-bf0f441a7c83",
+        "bean_name": "Excelsa",
+        "description": "Savor the exotic flavors of our Excelsa beans",
+        "created_at": "2023-08-24T03:52:51.346Z",
+        "updated_at": "2023-08-23T20:46:06.080Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14e63534-bdef-4877-a645-0be397e2e547",
+        "bean_name": "Mocha",
+        "description": "Enjoy the smoothness of our Mocha beans",
+        "created_at": "2023-08-23T13:49:59.185Z",
+        "updated_at": "2023-08-24T05:50:37.949Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c57397cc-7739-47af-b4bd-0c88e676a286",
+        "email": "Nolan.Swift@yahoo.com",
+        "firstName": "Emile",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bf492935-f978-4043-9bb4-352468b4060c",
+        "email": "Elna.Dicki2@yahoo.com",
+        "firstName": "Maegan",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16077674",
+        "tenantId": null
+      },
+      {
+        "reference": "caf789dd-5ff9-47e0-bbd1-220cfb8f1a0e",
+        "email": "Zelma45@yahoo.com",
+        "firstName": "Karli",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55256224",
+        "tenantId": null
+      },
+      {
+        "reference": "787eee9c-5fb7-4b4f-a779-775faa6bac61",
+        "email": "Jamaal.Emard31@hotmail.com",
+        "firstName": "Kianna",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/803.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d7ce818-f93d-4ca9-98ad-bf22f86b2ca6",
+        "email": "Arlo31@gmail.com",
+        "firstName": "Frederik",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/568.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "905c8be8-0bb0-44bb-8fd6-3c731b359d12",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language.",
+        "created_at": "2023-08-23T14:43:29.995Z",
+        "updated_at": "2023-08-24T04:38:07.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdb6ab7e-31fc-4db6-b72d-a73615a8793a",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development.",
+        "created_at": "2023-08-23T15:20:13.264Z",
+        "updated_at": "2023-08-24T01:34:50.169Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7adb9037-0f8a-409d-84cd-c4244dfcf546",
+        "title": "Machine Learning Fundamentals",
+        "content": "Explore the concepts of machine learning.",
+        "created_at": "2023-08-24T05:20:41.638Z",
+        "updated_at": "2023-08-24T09:03:32.125Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf71f013-a077-41e5-a2d5-8f782e629e65",
+        "title": "Data Visualization Techniques",
+        "content": "Master data visualization techniques.",
+        "created_at": "2023-08-23T23:29:45.800Z",
+        "updated_at": "2023-08-23T18:50:58.363Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ccfbce5-d93c-44ea-8211-0398707df462",
+        "title": "Introduction to JavaScript",
+        "content": "Get started with JavaScript programming.",
+        "created_at": "2023-08-23T12:04:02.108Z",
+        "updated_at": "2023-08-24T10:03:10.601Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "30a3afef-1ee7-47a4-8dd6-c1daa4687337",
+        "name": "SuperClean All-Purpose Cleaner",
+        "description": "Keep your home sparkling clean with our powerful all-purpose cleaner.",
+        "price": 22544,
+        "created_at": "2023-08-24T02:53:33.891Z",
+        "updated_at": "2023-08-24T10:52:31.787Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7dd519a7-0f83-41eb-ad07-5f10502a9a54",
+        "name": "EcoGarden Indoor Herb Kit",
+        "description": "Grow fresh herbs in your home with our easy-to-use indoor herb kit.",
+        "price": 4123,
+        "created_at": "2023-08-23T13:50:21.338Z",
+        "updated_at": "2023-08-23T12:15:45.298Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "de05aa85-dc34-4f78-b555-5ebcaf415d26",
+        "name": "TechPro Wireless Earbuds",
+        "description": "Experience high-quality audio with our wireless earbuds.",
+        "price": 6866,
+        "created_at": "2023-08-24T00:37:29.755Z",
+        "updated_at": "2023-08-24T01:40:13.673Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0ff1f1d6-b32a-431f-a2df-5225ee0523dc",
+        "name": "SmartHome Security System",
+        "description": "Protect your home with our advanced security system.",
+        "price": 83873,
+        "created_at": "2023-08-24T07:09:35.493Z",
+        "updated_at": "2023-08-23T11:45:16.071Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "95d394f9-b791-4af2-bec6-39a943762ca8",
+        "name": "HealthMax Fitness Tracker",
+        "description": "Track your fitness goals with our state-of-the-art fitness tracker.",
+        "price": 45045,
+        "created_at": "2023-08-23T13:35:58.640Z",
+        "updated_at": "2023-08-23T15:48:57.410Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "7f4cc6da-0429-4994-a368-e2cbcb3cfeb9",
+        "name": "Tech Expo 2022",
+        "description": "Join us at the largest tech expo of the year.",
+        "date": "2023-08-24T05:52:50.746Z",
+        "created_at": "2023-08-24T07:43:24.724Z",
+        "updated_at": "2023-08-24T08:37:50.269Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3e52e7a1-0c51-4350-9954-ebc0431907b6",
+        "name": "Community Cleanup Day",
+        "description": "Contribute to a cleaner environment by participating in the community cleanup day.",
+        "date": "2023-08-24T06:10:54.447Z",
+        "created_at": "2023-08-23T15:21:35.996Z",
+        "updated_at": "2023-08-23T20:59:34.225Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "857ea2c8-65ad-49ee-b6c5-cef88545de5f",
+        "name": "Artisan Craft Fair",
+        "description": "Discover unique handmade crafts at the artisan craft fair.",
+        "date": "2023-08-24T08:50:57.148Z",
+        "created_at": "2023-08-24T00:39:37.882Z",
+        "updated_at": "2023-08-23T13:49:01.622Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7ea669ed-ef29-493a-963e-e745c5534897",
+        "name": "Climate Change Conference",
+        "description": "Discuss and address the challenges of climate change at our conference.",
+        "date": "2023-08-23T17:28:54.898Z",
+        "created_at": "2023-08-24T05:26:43.899Z",
+        "updated_at": "2023-08-23T13:12:10.233Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6efd6356-845b-44aa-88e7-2ccadd892e75",
+        "name": "Music Festival",
+        "description": "Enjoy live music performances at the annual music festival.",
+        "date": "2023-08-23T14:39:13.608Z",
+        "created_at": "2023-08-23T17:21:39.333Z",
+        "updated_at": "2023-08-23T14:47:47.688Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "a83c6243-2767-4e61-b73e-0856aaf94e8a",
+        "bean_name": "Arabica Supreme",
+        "description": "Indulge in the rich and smooth flavor of our Arabica Supreme beans.",
+        "created_at": "2023-08-24T00:05:33.285Z",
+        "updated_at": "2023-08-23T11:09:05.247Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa107b9c-6e88-41ff-8f8b-17b6ea6b7e91",
+        "bean_name": "Mocha Java",
+        "description": "Experience the perfect blend of Mocha and Java beans.",
+        "created_at": "2023-08-23T22:00:24.083Z",
+        "updated_at": "2023-08-23T21:35:26.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4806075-6df4-444b-9754-24f01dab79b2",
+        "bean_name": "Colombian Gold",
+        "description": "Savor the unique taste of our premium Colombian Gold beans.",
+        "created_at": "2023-08-24T09:55:04.130Z",
+        "updated_at": "2023-08-24T08:11:11.644Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffe5f150-229e-48ca-8617-b0890fa34c2b",
+        "bean_name": "Ethiopian Yirgacheffe",
+        "description": "Discover the distinct flavors of Ethiopian Yirgacheffe beans.",
+        "created_at": "2023-08-24T03:50:33.668Z",
+        "updated_at": "2023-08-23T18:01:28.128Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80d79ebc-9787-417c-aa16-b4768995148e",
+        "bean_name": "Brazilian Santos",
+        "description": "Enjoy the bold and balanced flavor of our Brazilian Santos beans.",
+        "created_at": "2023-08-24T07:17:47.485Z",
+        "updated_at": "2023-08-23T12:59:27.999Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e89e7181-7c55-4f5c-aa8c-9bff828ce87c",
+        "email": "Conor_Rogahn50@hotmail.com",
+        "firstName": "Otha",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43006106",
+        "tenantId": null
+      },
+      {
+        "reference": "e9f6a837-e802-4166-9170-f3563752634e",
+        "email": "Verna26@yahoo.com",
+        "firstName": "Freda",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50ccb89b-d430-4541-beb5-a994a0ac155b",
+        "email": "Yasmin_Altenwerth75@hotmail.com",
+        "firstName": "Bulah",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33911431",
+        "tenantId": null
+      },
+      {
+        "reference": "f282bbed-3569-4279-996b-87d5755136e4",
+        "email": "Mariane_Bashirian@hotmail.com",
+        "firstName": "Alexys",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63659127",
+        "tenantId": null
+      },
+      {
+        "reference": "6aeab36d-b172-4f73-a708-d8cb8d526642",
+        "email": "Kathryn99@hotmail.com",
+        "firstName": "Anastacio",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92723838",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tutorial": [
+      {
+        "id": "389abdd9-4a28-4cf0-8e80-898662a6c702",
+        "title": "Introduction to Python",
+        "content": "Learn the basics of Python programming language",
+        "created_at": "2023-08-24T08:57:43.144Z",
+        "updated_at": "2023-08-23T14:36:07.497Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5479c27-a561-40c3-993a-ce6c8f219117",
+        "title": "Web Development Basics",
+        "content": "Discover the fundamentals of web development",
+        "created_at": "2023-08-23T11:01:58.524Z",
+        "updated_at": "2023-08-23T13:28:43.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e8fc84c-cc43-4180-a7d5-c0a89cd98680",
+        "title": "Machine Learning Fundamentals",
+        "content": "Explore the principles of machine learning",
+        "created_at": "2023-08-24T03:00:14.387Z",
+        "updated_at": "2023-08-23T18:01:39.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d967220d-c060-4c2a-b8f1-7d7e66d84975",
+        "title": "Data Analysis Techniques",
+        "content": "Master data analysis techniques using Python",
+        "created_at": "2023-08-24T03:19:14.021Z",
+        "updated_at": "2023-08-23T18:50:54.078Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3860968d-976d-493b-b93a-2c01418880db",
+        "title": "Mobile App Development",
+        "content": "Build mobile apps for iOS and Android",
+        "created_at": "2023-08-24T07:18:01.865Z",
+        "updated_at": "2023-08-24T01:30:00.895Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "product": [
+      {
+        "id": "1a52ca04-bb1d-41fa-94ad-6939bf20e5ba",
+        "name": "Smart Home Assistant",
+        "description": "Experience the convenience of a smart home assistant",
+        "price": 99096,
+        "created_at": "2023-08-23T11:14:19.582Z",
+        "updated_at": "2023-08-24T03:16:25.659Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9cb4ac9d-02d7-462e-9596-b034885b6966",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Enjoy wireless audio with crystal-clear sound",
+        "price": 52202,
+        "created_at": "2023-08-24T02:53:55.544Z",
+        "updated_at": "2023-08-23T12:17:32.571Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5c34b105-880b-42bd-ab6d-4f9d730584ff",
+        "name": "Portable Solar Charger",
+        "description": "Harness the power of the sun to charge your devices",
+        "price": 89366,
+        "created_at": "2023-08-24T10:51:13.332Z",
+        "updated_at": "2023-08-24T10:00:16.315Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6449b4f1-4bea-49dd-bb1b-7b562f753c6a",
+        "name": "Smart Fitness Tracker",
+        "description": "Track your fitness goals with advanced features",
+        "price": 25947,
+        "created_at": "2023-08-23T14:42:56.739Z",
+        "updated_at": "2023-08-23T19:36:16.060Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82337a67-d04c-4c66-b5e4-915f0a39b176",
+        "name": "High-Speed Wireless Router",
+        "description": "Get blazing fast internet speed with our router",
+        "price": 89756,
+        "created_at": "2023-08-24T07:26:38.395Z",
+        "updated_at": "2023-08-24T10:59:51.470Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "821282fa-dffd-4fca-b5a9-3fcc549295e6",
+        "name": "Tech Expo 2022",
+        "description": "Join us for the biggest tech event of the year",
+        "date": "2023-08-24T10:39:51.919Z",
+        "created_at": "2023-08-23T23:24:05.014Z",
+        "updated_at": "2023-08-24T10:23:05.579Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d51a8480-f297-4535-b710-e9f51506e25f",
+        "name": "Startup Summit",
+        "description": "Connect with industry experts and investors at the startup summit",
+        "date": "2023-08-23T15:41:11.676Z",
+        "created_at": "2023-08-24T09:33:43.380Z",
+        "updated_at": "2023-08-23T12:41:50.639Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "50139f22-8f13-4832-8ff9-7671d8970152",
+        "name": "Digital Marketing Conference",
+        "description": "Learn the latest trends and strategies in digital marketing",
+        "date": "2023-08-24T03:24:20.362Z",
+        "created_at": "2023-08-23T11:16:16.923Z",
+        "updated_at": "2023-08-24T04:15:49.039Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "245602cd-c1c1-4478-acab-9a949de98e9f",
+        "name": "Health and Wellness Retreat",
+        "description": "Relax and rejuvenate at our health and wellness retreat",
+        "date": "2023-08-23T17:48:48.113Z",
+        "created_at": "2023-08-23T17:46:09.254Z",
+        "updated_at": "2023-08-24T09:02:03.608Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4db4f0b7-047a-4dc4-9d2b-b51ecea35f93",
+        "name": "Artificial Intelligence Symposium",
+        "description": "Explore the future of AI with renowned researchers and professionals",
+        "date": "2023-08-24T02:17:37.718Z",
+        "created_at": "2023-08-23T19:53:31.855Z",
+        "updated_at": "2023-08-24T05:26:26.834Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "bean_exchange": [
+      {
+        "id": "810f1455-0a15-4fb1-aaa5-2b2ed465b9c4",
+        "bean_name": "Arabica",
+        "description": "Discover the rich flavors of Arabica beans",
+        "created_at": "2023-08-23T18:32:42.363Z",
+        "updated_at": "2023-08-24T00:58:40.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b44f119-a40f-4041-96b9-dd096722c11f",
+        "bean_name": "Robusta",
+        "description": "Experience the boldness of Robusta coffee",
+        "created_at": "2023-08-24T03:33:13.020Z",
+        "updated_at": "2023-08-24T02:07:35.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf9aab57-4390-45d9-bd85-4e8770ff4cd1",
+        "bean_name": "Liberica",
+        "description": "Indulge in the unique taste of Liberica beans",
+        "created_at": "2023-08-23T17:38:14.291Z",
+        "updated_at": "2023-08-23T23:50:22.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51396036-806f-48ac-b876-dd8a33c912e8",
+        "bean_name": "Excelsa",
+        "description": "Savor the fruity notes of Excelsa coffee",
+        "created_at": "2023-08-24T03:07:07.516Z",
+        "updated_at": "2023-08-24T04:03:41.894Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe11fbe6-8256-4ccd-a6b6-f89f2f7f0454",
+        "bean_name": "Catimor",
+        "description": "Enjoy the smoothness of Catimor beans",
+        "created_at": "2023-08-23T15:14:29.514Z",
+        "updated_at": "2023-08-23T11:43:57.000Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "056810e4-a83b-4b0b-9755-c4b415d93364",
+        "email": "Price_Fisher10@yahoo.com",
+        "firstName": "Lucious",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25585600",
+        "tenantId": null
+      },
+      {
+        "reference": "727486b3-a029-4742-80c7-5263e0afbdb3",
+        "email": "Karson95@yahoo.com",
+        "firstName": "Jarvis",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79964200",
+        "tenantId": null
+      },
+      {
+        "reference": "135ac566-4345-40e1-b951-7b6cba981481",
+        "email": "Mitchell74@gmail.com",
+        "firstName": "Laverna",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34818450",
+        "tenantId": null
+      },
+      {
+        "reference": "4cd69f4a-a084-47ad-8610-995d9f4eccb8",
+        "email": "Juston71@gmail.com",
+        "firstName": "Iliana",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/618.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e5da5172-05d4-460c-8521-b90f52be7abc",
+        "email": "Calista50@yahoo.com",
+        "firstName": "Lonie",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94031044",
+        "tenantId": null
+      }
+    ]
+  }
+]
